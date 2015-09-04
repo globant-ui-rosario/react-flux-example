@@ -1,0 +1,28 @@
+@import "partials/variables";
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #F9F9F9;
+}
+
+#mount-point {
+    height: 100%;
+}
+
+@import "partials/grid";
+@import "../components/main";
+@import "../views/main-view";
+@import "../views/product-creation-view";
+@import "../views/product-list-view";

@@ -1,0 +1,16 @@
+.checkbox {
+    display: block;
+
+    &--input,
+    &--child {
+        vertical-align: middle;
+    }
+
+    &--input {
+
+    }
+
+    &--child {
+        font-size: 13px;
+    }
+}
